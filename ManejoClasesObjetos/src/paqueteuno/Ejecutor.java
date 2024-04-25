@@ -10,6 +10,7 @@ package paqueteuno;
  * @author reroes
  */
 public class Ejecutor {
+
     public static void main(String[] args) {
         // Crear un objeto de tipo FacturaTelefono
         FacturaTelefono ft = new FacturaTelefono();
@@ -31,9 +32,9 @@ public class Ejecutor {
         // pues trabaja con los valores de los atributos: número de minutos 
         // consumidos en el mes, valor de cada minuto; que ya los tiene el 
         // objeto.
-        
+
         ft.calcularValorFactura();
-        
+
         // Se hace uso de los métodos obtener para presentar en pantalla lo 
         // requerido
         System.out.printf("Factura de Teléfono\n \nNombres y Apellidos: %s\nNúmero de teléfono: %s\n"
