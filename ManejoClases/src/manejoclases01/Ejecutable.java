@@ -12,9 +12,10 @@ public class Ejecutable {
         Hospital hospital = new Hospital();
         
         // Se asigna valores particulares al objeto
+        //estos atributos son publicos y los puedos usar en esta clase
         hospital.nombre = "Isidro Ayora";
         hospital.numeroCamas = 100;
-        hospital.presupuesto = 560340.43;
+        hospital.presupuesto = 560.000;
         
         // Se presenta valores en pantalla
         System.out.printf("%s - %d - %.1f\n", hospital.nombre,

@@ -6,6 +6,7 @@
 package manejoclases02;
 
 public class Hospital {
+    //sus atributos son privados 
     private String nombre;
     private int numeroCamas;
     private double presupuesto;
