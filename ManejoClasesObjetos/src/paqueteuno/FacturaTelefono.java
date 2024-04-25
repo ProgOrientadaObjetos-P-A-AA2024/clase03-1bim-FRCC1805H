@@ -10,19 +10,25 @@ package paqueteuno;
  * @author reroes
  */
 public class FacturaTelefono {
+    //estan de tipo privado 
     private String numeroTelefono;
     private double minutosMes;
     private double valorMinuto;
     private double valorFactura;
+    private String nombres;
+    //se lo esta ocupando para poder generar el proceso ya que se encuentran 
+    //privados los atributos 
     
     public void establecerNumeroTelefono(String c){
         numeroTelefono = c;
     }
-    
+    //se lo esta ocupando para poder generar el proceso ya que se encuentran 
+    //privados los atributos 
     public void establecerMinutosMes(double c){
         minutosMes = c;
     }
-    
+    //se lo esta ocupando para poder generar el proceso ya que se encuentran 
+    //privados los atributos 
     public void establecerValorMinuto(double c){
         valorMinuto = c;
     }
@@ -47,7 +53,10 @@ public class FacturaTelefono {
     public double obtenerValorFactura(){
         return valorFactura;
     }
-    
-    
-    
+    public void establecerNombres(String n){
+        nombres = n;
+    }
+    public String obtenerNombres(){
+        return nombres;
+    }
 }

@@ -20,7 +20,10 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
-        
+        /*
+        el sistem solo esta imprimiendo los valores que tiene en ese momento 
+        h1 pero no h1 numero de camas .
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
         /*
